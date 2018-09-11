@@ -1,0 +1,51 @@
+//Ayesha Perwaiz
+//Partial Asymptotic Analysis
+//HW4
+
+Operator[] (int index)
+{
+    This function returns the value at the given index from the MyVector object vec.
+
+    Its Big O notation is O(1) because it always returns one value despite how big
+    the MyVector object is.
+
+    //O(1)
+}
+
+pop_back
+{
+    This function deletes the last value to the MyVector object by decreasing the size of the array,
+    making a temporary MyVector array, copying the old MyVector array to tmp, and then
+    copying tmp to a new MyVector array. 
+
+    Since there is 1 for loop that goes through every element in the object, the Big O notation would be
+    O(1n) or just simply O(n).
+
+    //O(n)
+}
+
+push_back
+{
+    This function adds a value to a the MyVector object by increasing the size of the array,
+    making a temporary MyVector object, copying the old MyVector object over to temp, and then
+    copying temp to a new MyVector object. 
+
+    Since there is 1 for loop that goes through every element in the object, the Big O notation
+    would be O(1n) or just O(n).
+
+    //O(n)
+}
+
+
+search
+{
+    This function goes through every element in the MyVector object until the end, or until it finds 
+    the first value that the user searches for. 
+
+    The Big O notation for this function would be O(n), n being the size of the array. The best case 
+    scenario for this function would be O(1), if the value being searched for was the first element 
+    in MyVector.
+
+    //Best Case: O(1)
+    //Worst Case: O(n)
+}

@@ -1,0 +1,23 @@
+//Ayesha Perwaiz
+//Partial Asymptotic Analysis
+//HW5
+
+insertAtFront
+{
+    This function inserts a node at the beginning of the list. 
+
+    Its Big O notation is O(1) since it does not depend on the size of the list,
+    rather it just replaces the start of the list.
+
+    //O(1)
+}
+
+insertAtBack
+{
+    This functions inserts node at the end of the list. 
+
+    Since there is 1 while loop that goes through every element in the object, the Big O notation would be
+    O(1n) or just simply O(n). It is dependent on the number of elements in the list.
+
+    //O(n)
+}
